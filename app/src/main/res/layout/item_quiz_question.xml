@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/llShimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_margin="8dp"
+                    android:padding="4dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="#B6B6B6"
+                    app:cardCornerRadius="12dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginBottom="16dp"
+                    android:padding="4dp"
+                    app:cardElevation="0dp"
+
+                    app:cardBackgroundColor="#B6B6B6"
+                    app:cardCornerRadius="44dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginBottom="16dp"
+                    android:padding="4dp"
+                    app:cardElevation="0dp"
+
+                    app:cardBackgroundColor="#B6B6B6"
+                    app:cardCornerRadius="44dp" />
+
+
+
+
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <LinearLayout
+            android:id="@+id/llQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:fontFamily="monospace"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Question" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btChoice1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:gravity="start|center"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp"
+                tools:text="Option" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btChoice2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:gravity="start|center"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp"
+                tools:text="Option" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btChoice3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:gravity="start|center"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp"
+                tools:text="Option" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btChoice4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:gravity="start|center"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp"
+                tools:text="Option" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

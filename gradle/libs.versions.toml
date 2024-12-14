@@ -19,6 +19,8 @@ navigationFragmentKtx = "2.8.5"
 navigationUiKtx = "2.8.5"
 okhttpBom = "4.9.2"
 retrofit = "2.9.0"
+activity = "1.9.3"
+shimmer = "0.5.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -45,6 +47,8 @@ okhttp = { module = "com.squareup.okhttp3:okhttp" }
 okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttpBom" }
 okhttp-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

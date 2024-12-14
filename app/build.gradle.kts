@@ -46,12 +46,14 @@ dependencies {
     implementation(libs.androidx.appcompat)
 
     //ui: core android views
+    implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 
-    //ui : google  libs
+    //ui : 3rd party  libs
     implementation(libs.material)
+    implementation(libs.shimmer)
 
     //ui: lifecycles
     implementation(libs.androidx.lifecycle.livedata.ktx)

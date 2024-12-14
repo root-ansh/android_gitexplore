@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit
 @InstallIn(SingletonComponent::class)
 object ApiDI{
     private const val URL_BASE = "https://raw.githubusercontent.com/"
-    const val URL_QUIZ = "/itmmckernan/triviaJSON/master/science-technology.json"
+    const val URL_QUIZ = "/itmmckernan/triviaJSON/master/"
     @Provides
     fun makeHttpCache(@ApplicationContext context: Context): Cache {
         return Cache(context.applicationContext.cacheDir, 5 * 1024 * 1024L)

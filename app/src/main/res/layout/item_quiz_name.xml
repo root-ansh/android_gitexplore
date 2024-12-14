@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cornerRadius="24dp"
+        app:elevation="0dp"
+        android:layout_margin="8dp"
+        android:paddingHorizontal="8dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+
+</FrameLayout>
